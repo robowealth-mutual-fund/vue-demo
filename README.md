@@ -18,18 +18,18 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 
 ## install
 
- npm install bun
- bun install
+- npm install bun
+- bun install
 
 ## RUN
 
- bun run dev
+- bun run dev
 
 ## Docker build
 
-ocker build -t vue-demo:0.0.1 . --no-cache --progress=plain --platform=linux/amd64
+- docker build -t vue-demo:0.0.1 . --no-cache --progress=plain --platform=linux/amd64
 
 ## Docker Run
-docker run -d -p 3001:8080 --name demo-site vue-demo:0.0.1 
-url : localhost:3001
+- docker run -d -p 3001:8080 --name demo-site vue-demo:0.0.1 
+- url : localhost:3001
 
